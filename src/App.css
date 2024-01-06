@@ -1,0 +1,88 @@
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(to right, #868f96 0%, #596164 100%);
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+button{
+  border: none;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+input {
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Optional: Add focus styles for better user experience */
+input:focus {
+  outline: none;
+  border-color: #4caf50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.7);
+}
+.add {
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green color on hover */
+}
+.task-con{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 8px;
+    border-radius: 3px;
+    background: linear-gradient(to right, #000, #fff);
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 25.5);
+    padding: 6px;
+    height: 35px;
+    text-align: center;
+    font-size: 17px;
+}
+.ul-or {
+  list-style: none;
+}
+.ul-li {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  border-color: #fff;
+}
+.c-button{
+  display: flex;
+  justify-content: space-between;
+}
+.c-n{
+  font-size: 20px;
+  border: none;
+  background-color: Transparent;
+ 
+}
+.c-b{
+  font-size: 20px;
+  border: none;
+  background-color: Transparent;
+}
+.re-in{
+  height: 5px;
+}
